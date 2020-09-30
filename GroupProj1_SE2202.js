@@ -2,7 +2,6 @@ shape = function(type, offset, dimension)
 {
     let line = "\n";
 
-   
     drawR = function(dimension){
         let result = "";
         for(let i = 0; i < dimension; i ++)
@@ -36,9 +35,7 @@ shape = function(type, offset, dimension)
             result += line;
         }
         return result;
-        console.log(result);
     }   
-
 
     if(type === "triangle")
     {   
@@ -48,7 +45,6 @@ shape = function(type, offset, dimension)
     {
         return drawR(dimension);
     }
-
 };
 
 
