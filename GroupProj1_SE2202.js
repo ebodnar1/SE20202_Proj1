@@ -1,9 +1,9 @@
 shape = function(type, offset, dimension)
 {
     let line = "\n";
-
+    let result = "";
+    
     drawR = function(dimension){
-        let result = "";
         for(let i = 0; i < dimension; i ++)
         {
             for(let j = 0; j < offset; j ++)
@@ -21,7 +21,6 @@ shape = function(type, offset, dimension)
 
     drawT = function(dimension)
     {
-        let result = "";
         for(let a = 0; a < dimension; a ++)
         {
             for(let b = 0; b < offset; b ++)
